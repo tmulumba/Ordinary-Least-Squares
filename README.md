@@ -12,8 +12,11 @@ from OLS import OlsEstimator
 np.random.seed(0)
     
 X = np.random.randn(400,3)
+
 Y = np.random.randn(400,1)
+
 intercept = True
 
 ols_object = OlsEstimator(X, Y, intercept)
+
 result = ols_object.fit()
