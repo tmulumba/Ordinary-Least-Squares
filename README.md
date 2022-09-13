@@ -9,6 +9,7 @@ Included is a unit test for the module.
 Sample usage:
 
 from OLS import OlsEstimator
+
 np.random.seed(0)
     
 X = np.random.randn(400,3)
