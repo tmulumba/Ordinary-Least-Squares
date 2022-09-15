@@ -13,9 +13,9 @@ class OlsEstimator:
         OLS Estimator class for obtaining linear regression estimates via Ordinary \
         Least Squares.
         Arguments:
-        :X: numpy nxk-dimensional array of independent variables (matrix or vector)
-        :Y: numpy nx1-dimensional array of dependent variable (vector)
-        :intercept: flag for intercept inclusion
+        :param X: numpy nxk-dimensional array of independent variables (matrix or vector)
+        :param Y: numpy nx1-dimensional array of dependent variable (vector)
+        :param intercept: flag for intercept inclusion
         """
         self.X = X
         self.Y = Y
