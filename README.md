@@ -8,6 +8,8 @@ Included is a unit test for the module.
 
 Sample usage:
 
+import numpy as np
+
 from OLS import OlsEstimator
 
 np.random.seed(0)
