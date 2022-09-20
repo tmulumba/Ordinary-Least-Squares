@@ -23,7 +23,7 @@ class OlsEstimator:
         self.parameters = collections.defaultdict()
         print("OLS Estimator Created")
         
-    def fit(self):
+    def fit(self) -> dict:
         """
         Utility function for parameter estimation.
         
